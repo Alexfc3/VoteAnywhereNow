@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background1">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:text="PNP"
+            android:textSize="17dp"
+            android:id="@+id/button"
+            android:background="#3439da"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:onClick="onButtonClick"
+            android:enabled="true"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginStart="62dp"
+            android:layout_alignTop="@+id/button2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="PPD"
+                android:textSize="17dp"
+                android:id="@+id/button2"
+                android:background="#fe0202"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:onClick="onButtonClick"
+            android:enabled="true"
+            android:focusable="false"
+            android:layout_marginBottom="47dp"
+            android:clickable="true"
+            android:layout_above="@+id/button4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="65dp" />
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="PIP"
+                android:textSize="17dp"
+                android:id="@+id/button3"
+                android:layout_gravity="center_vertical"
+                android:singleLine="false"
+                android:textColor="#ffffff"
+                android:background="#047804"
+                android:onClick="onButtonClick"
+            android:enabled="true"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/button" />
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="PPT"
+                android:textSize="17dp"
+                android:id="@+id/button4"
+                android:background="#7a01d6"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:onClick="onButtonClick"
+            android:enabled="true"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_above="@+id/button5"
+            android:layout_alignStart="@+id/button2" />
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="LUG"
+                android:textSize="17dp"
+                android:id="@+id/button5"
+                android:layout_gravity="center_vertical"
+                android:background="#b9a903"
+                android:textColor="#ffffff"
+                android:layout_marginTop="47dp"
+                android:onClick="onButtonClick"
+            android:enabled="true"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_below="@+id/button3"
+            android:layout_alignStart="@+id/button3" />
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="CID"
+                android:textSize="17dp"
+                android:id="@+id/button6"
+                android:textColor="#ffffff"
+                android:background="#e64f04"
+                android:layout_gravity="center_vertical"
+                android:onClick="onButtonClick"
+                android:nestedScrollingEnabled="false"
+                android:layout_alignTop="@+id/button5"
+                android:layout_alignStart="@+id/button4"
+            android:enabled="true"
+            android:focusable="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:clickable="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
